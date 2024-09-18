@@ -1,0 +1,17 @@
+.s{
+    
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: black;
+}
+p{
+    color: rgb(60, 36, 36);
+}
+h2{
+    text-align: center;
+    color: #000;
+}
+.counter{
+    padding-top: 10px;
+}

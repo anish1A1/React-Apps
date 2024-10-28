@@ -1,7 +1,7 @@
 // import Button from "./component/button";
 import Card from "./Cardbox/card";
 import Cardhooks from './hooks/Cardhooks'
-
+import Avatar from "./component/Avatar";
 function App() {
   // declearing variables
   const description1 = "I am also known as battery.";
@@ -23,7 +23,7 @@ function App() {
       <div>
 
         {/* <Button /> */}
-        <Card title = {"James"} description={"Hey I'm gay"}/>
+        <Card title = {"James"} description={"Hey I'm Noob"}/>
         <Card title={"No One"} description={"Some Content"} />
         <Card title={"Arjun"} description = {"Another gay Nice to meet You!"}/>
         <Card title={"Arjun"} description = {description1}/>
@@ -34,6 +34,14 @@ function App() {
       </div>
     </div>
     <Cardhooks />
+    <Avatar size={100}
+    
+    person={{
+      name : 'Arjun',
+      imageID :'persons'
+    }}
+    />
+
     </>
   );
 }

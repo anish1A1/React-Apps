@@ -1,0 +1,11 @@
+import Form from "./Forms/Form";
+
+export default function App() {
+  return (
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+
+      <Form />
+    </h1>
+  )
+}

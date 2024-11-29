@@ -26,7 +26,7 @@ export default function Form() {
     }
 
     if (status === 'success')  {
-        return <h1>That's right</h1>
+        return <h1> correct!! --v-- </h1>
     }
     return(
         <>

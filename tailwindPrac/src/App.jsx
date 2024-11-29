@@ -1,3 +1,4 @@
+import Tailwindcrash from "./crash/Tailwindcrash"
 
 function App() {
  
@@ -5,7 +6,8 @@ function App() {
   return (
     <>
       
-      
+      <Tailwindcrash />
+
 
 
     </>

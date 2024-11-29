@@ -4,10 +4,10 @@ import './card.css'
 
 function Card(props) {
     return(
-        <div className="content">
-            <div className="card">
-            <div className="card-body">
-                <h5 className="card-title">{props.title}</h5>
+        <div classNameName="content">
+            <div classNameName="card">
+            <div classNameName="card-body">
+                <h5 classNameName="card-title">{props.title}</h5>
                 <p>{props.description}</p>
                 
                 <Counter />

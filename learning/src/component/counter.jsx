@@ -9,10 +9,10 @@ const Counter = () => {
     const decrement = () => { setUpdate(inital - 1)}
     const [inital, setUpdate] = useState(0);
     return(
-        <div className="counter">
+        <div classNameName="counter">
             <h2>Card Counter</h2>
             <p>{inital}</p>
-            <div className="s">
+            <div classNameName="s">
             <button onClick={increment}>True</button>
             <button onClick={decrement}>False</button>
 

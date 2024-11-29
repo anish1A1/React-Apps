@@ -55,27 +55,27 @@ function App() {
   return (
     <>
     
-    <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4
+    <div classNameName="w-full max-w-md mx-auto shadow-md rounded-lg px-4
     my-8 text-orange-500" >
-      <h1 className='text-center text-blue-200 '>Password Generator</h1>
-      <div className="flex shadow rounded-lg overflow-hidden mb-4 ">
+      <h1 classNameName='text-center text-blue-200 '>Password Generator</h1>
+      <div classNameName="flex shadow rounded-lg overflow-hidden mb-4 ">
         
-        <input type="text" value={password} className="outline-none w-full py-1 px-3" 
+        <input type="text" value={password} classNameName="outline-none w-full py-1 px-3" 
         placeholder="Password" readOnly  
         ref = {passwordRef} />
         
-        <button className="outline-none text-white bg-blue-700 px-3 py-0.5 shrink-0
+        <button classNameName="outline-none text-white bg-blue-700 px-3 py-0.5 shrink-0
          " onClick={copyPassToClipboard}>
           Copy
           </button>
       </div>
 
-      <div className="flex text-sm gap-x-3">
-        <div className="flex items-center gap-x-1 ">
+      <div classNameName="flex text-sm gap-x-3">
+        <div classNameName="flex items-center gap-x-1 ">
           <input type="range"
           min={6}
           max={100}
-          value={length}   className="cursor-pointer" 
+          value={length}   classNameName="cursor-pointer" 
           onChange={(e) => {setLength(e.target.value)}} />
 
           {/* When the user moves the slider, the onChange event fires, and setLength(e.target.value) updates the length state with the new slider value (e.target.value). */}
@@ -84,7 +84,7 @@ function App() {
 
         </div>
 
-        <div className="flex items-center gap-x-1">
+        <div classNameName="flex items-center gap-x-1">
           <input type="checkbox" defaultChecked= {numberAllowed}
           id="numberInput" 
           onChange={() => {
@@ -94,8 +94,8 @@ function App() {
           }} />
           <label htmlFor="numberInput">Numbers</label>
         </div>
-        <div className="flex items-center gap-x-1 m-3">
-          <input type="checkbox" className=""
+        <div classNameName="flex items-center gap-x-1 m-3">
+          <input type="checkbox" classNameName=""
           defaultChecked={charAllowed}
           id="charInput" onChange={() => {
             setCharAllowed((prev) => !prev);

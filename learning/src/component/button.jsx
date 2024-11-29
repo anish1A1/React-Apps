@@ -2,8 +2,8 @@
 
 function Button(){
     return (
-        <div className="button">
-            <button className="btn">
+        <div classNameName="button">
+            <button classNameName="btn">
 
             Click Me
             </button>

@@ -16,13 +16,13 @@ function Cardhooks(){
 
     return (
         <>
-            <div className='hookk rounded'>
-                <h2 className='mb-4'>Cardhooks</h2>
+            <div classNameName='hookk rounded'>
+                <h2 classNameName='mb-4'>Cardhooks</h2>
                 
-            <div className='counterss'>
+            <div classNameName='counterss'>
                 Counters : {counts}
             </div>
-            <div className='counterss2'>
+            <div classNameName='counterss2'>
                 <button onClick={addcounts} value={counts} >{counts}</button>
                 <br />
                 <button onClick={removecounts} value={counts} >{counts}</button>
